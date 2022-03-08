@@ -29,11 +29,11 @@ const initOptions = {
 
 // Database connection parameters:
 const config = {
-  host: 'localhost',
+  host: 'storage-rents.ck7d6vneh0q0.us-east-2.rds.amazonaws.com',
   port: 5432,
-  database: 'PERN-Starter',
+  database: 'sr_db',
   user: 'postgres',
-  password: process.env.db_password
+  password: 'password123'
 };
 
 // Load and initialize pg-promise:

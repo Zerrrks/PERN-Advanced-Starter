@@ -32,6 +32,8 @@ import styles from "assets/jss/material-kit-react/views/profilePage.js";
 
 import profileBg from "assets/img/profile-bg.jpg"
 
+import Dash from "../Test/Dash";
+
 const useStyles = makeStyles(styles);
 
 export default function ProfilePage(props) {
@@ -57,6 +59,7 @@ export default function ProfilePage(props) {
                   </div>
                   <div className={classes.name}>
                     <h3 className={classes.title}>Christian Louboutin</h3>
+                    <Dash />
                     <h6>DESIGNER</h6>
                     <Button justIcon link className={classes.margin5}>
                       <i className={"fab fa-twitter"} />
